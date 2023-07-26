@@ -1,0 +1,36 @@
+body {
+	margin:0;
+	padding:0;
+	background:#262626;
+
+		ul {
+			position:absolute;
+			top:50%;
+			left:50%;
+			transform:translate(-50%, -50%);
+			margin:0;
+			padding:0;
+			display:flex;
+        
+                	li {
+					list-style:none;
+					font-family:arial;
+					font-size:40px;
+					letter-spacing: 15px;
+					text-shadow: none;
+					animation:animate 1s infinite linear;
+		   		}
+        }
+}
+@keyframes animate {
+        0%, 18%, 30%, 70%, 90%, 100% { 
+            color:#484848;
+            text-shadow: none;
+        }
+		20%, 35%, 85% {
+		    color:#C62828;
+			text-shadow:0 0 7px #C62828, 0 0 20px #E157B3;
+		}
+			
+    }
+	
